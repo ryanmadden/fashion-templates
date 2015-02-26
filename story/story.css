@@ -38,6 +38,14 @@
 	margin-right: -3px;
 }
 
+.cover-img  > img {
+	max-height: 600px;
+}
+
+.img-thumb > img {
+	cursor: pointer;
+}
+
 .row > div {
 	padding-bottom: 6px;
 	padding-left: 3px;
