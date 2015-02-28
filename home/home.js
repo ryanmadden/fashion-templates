@@ -1,5 +1,5 @@
 var container = $('#grid-wrapper');
-// $container.imagesLoaded(function(){
+container.imagesLoaded(function(){
   var msnry = new  Masonry(container[0], {
     itemSelector : '.item',
     columnWidth : 234,
@@ -7,4 +7,4 @@ var container = $('#grid-wrapper');
     gutterWidth: 10,
     transitionDuration: '0.4s',
   });
-// });
+});
