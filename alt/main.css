@@ -1,0 +1,133 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background-color: rgb(245, 245, 245);
+	font-family: 'PT Sans Caption', Helvetica, sans-serif;
+}
+
+.content {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 0px 0px #E5E5E5;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.section-header {
+	text-align: center;
+	padding: 20px;
+}
+
+/* Navbar style */
+.navbar {
+	background-color: #455A64;
+	border: none;
+	opacity: 0.97;
+	background-image: none;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.navbar:hover {
+	opacity: 1;
+}
+
+#brand {
+	color: #727272;
+}
+
+.navbar .navbar-nav > li > a {
+	border: none;
+	color: #f2f2f2;
+}
+
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+	color: white;
+	background-color: #607D8B;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.5s;
+}
+
+#header-button * {
+	border-color: #727272;
+	color: white;
+}
+
+#header-button span {
+	background-color: white;
+}
+
+.splash {
+	height: calc(100vh);
+	background-image: url("overlay.png"), url("bg.jpg");
+	background-position: left top, center center;
+	background-repeat: repeat, no-repeat;
+	background-size: auto auto, cover;
+	text-align: center;
+}
+
+#splash-title {
+	padding-top: 25vh;
+	margin-top: 0px;
+	color: white;
+	font-size: 10em;
+}
+
+#info {
+	height: 10px;
+}
+
+.btn-default {
+	font-size: 2em;
+	border: 2px solid white;
+	background-color: none;
+	background: none;
+	color: white;
+}
+
+.btn-default:hover {
+	background: none;
+	color: white;
+	border: 2px solid white;
+}
+
+.portfolio-row > div {
+	padding-bottom: 30px;
+	max-height: 325px;
+}
+
+.portfolio-row img {
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 295px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+
+#portfolio-header {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#portfolio-header > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#prof-pic-wrapper {
+	max-width: 150px;	
+}
