@@ -1,0 +1,134 @@
+body {
+	font-family: 'PT Sans Caption', Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 7em;
+}
+
+#three-one:before {
+  content: "";
+  left: 0;
+  right: 0;
+  z-index: 0;
+  
+  /*display: block;*/
+  background-image: url('../altstory/leaf_dress.jpg');
+  width: 100%;
+  height: 100vh;	
+  	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.splash {
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#arrow {
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	top: 13px;
+	left: 12px;
+}
+
+.circle {
+	cursor: pointer;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #455A64;
+	margin-left: auto;
+	margin-right: auto;
+	top: 85%;
+	z-index: 9999;
+}
+
+.title-wrapper {
+	margin-top: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	color: #455A64;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wunderbar {
+	height: 0px;
+	width: 150px;
+	border-bottom: 3px solid #455A64;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.splash > img {
+	position: relative;
+	top: -9%;
+	top: -60px;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+
+	top: -40px;
+	position: relative;
+}
+
+.row > div {
+	max-height: 80vh;
+}
+
+.row > div > img {
+	max-height: 80vh;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+}
+
+#three-one {
+	/*background-image: url('../altstory/leaf_dress_blur.png')*/
+}
+
+#three-two {
+	background-image: url('../altstory/sketch_blur.jpg')
+}
+
+#one-one {
+	/*background-image: url('../altstory/paris_blur.png')*/
+}
+
+#one-two {
+	background-image: url('../altstory/beach_blur.jpg')
+}
+
+#two {
+	background-image: url('https://ununsplash.imgix.net/photo-1421284621639-884f4129b61d?q=75&fm=jpg&s=9f9c4eb194b84f49e6c6aa624de61ba2')
+}
+
+#three {
+	background-image: url('https://unsplash.imgix.net/uploads/14134890947503c6effdc/72adf455?q=75&fm=jpg&s=b2419796e3006cb1da9755266b0aca89')
+}
