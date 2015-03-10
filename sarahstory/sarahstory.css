@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	font-size: 7em;
+	font-size: 50pt;
 }
 
 #three-one:before {
@@ -64,8 +64,8 @@ h1 {
 
 .title-wrapper {
 	margin-top: 80px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 15%;
+	padding-right: 15%;
 	text-align: center;
 	color: #455A64;
 	margin-left: auto;
