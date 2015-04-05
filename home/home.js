@@ -4,9 +4,9 @@ var msnry;
 imagesLoaded( container, function() {
   msnry = new Masonry( container[0], {
     itemSelector : '.item',
-    columnWidth : 198,
+    columnWidth : 190,
     isFitWidth: true,
-    gutterWidth: 10,
+    gutter: 8,
     transitionDuration: '0.4s',
   });
 });

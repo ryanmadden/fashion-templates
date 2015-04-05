@@ -1,12 +1,18 @@
 body {
 	background-color: #E9E9E9;
+	padding-top: 60px;
+}
+
+.container-fluid {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .item {
 	background-color: white;
 	float: left;
 	width: 190px;
-	margin: 4px;
+	margin-bottom: 8px;
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
 	border-radius: 3px;
 }
