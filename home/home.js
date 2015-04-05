@@ -4,7 +4,7 @@ var msnry;
 imagesLoaded( container, function() {
   msnry = new Masonry( container[0], {
     itemSelector : '.item',
-    columnWidth : 234,
+    columnWidth : 198,
     isFitWidth: true,
     gutterWidth: 10,
     transitionDuration: '0.4s',
