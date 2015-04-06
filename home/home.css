@@ -8,6 +8,10 @@ body {
 	padding-right: 50px;
 }
 
+.navbar-default {
+	background-color: #2C3233;
+}
+
 .item {
 	background-color: white;
 	float: left;
